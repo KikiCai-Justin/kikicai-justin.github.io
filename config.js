@@ -4,17 +4,17 @@
  */
 const CONFIG = {
   meta: {
-    title: '腾小飞 · 个人名片',
+    title: 'Kiki · 个人名片',
     description:
-      '腾小飞 — 复旦大学腾飞书院工科学生个人名片：简介、技能与兴趣、科研、竞赛、实习与社会实践。',
+      'Kiki — 复旦大学腾飞书院 · 计算与智能创新学院 工科在读本科生：简介、技能与兴趣、科研、竞赛、实习与社会实践。',
     lang: 'zh-CN'
   },
 
   /** 顶栏与页脚文案 */
   site: {
-    headerName: '腾小飞',
-    footerName: '腾小飞',
-    footerOrg: '复旦大学腾飞书院',
+    headerName: 'Kiki',
+    footerName: 'Kiki',
+    footerOrg: 'Kiki',
     footerNote: '本页为 github.io 静态部署教程示例 · 左右滑动或方向键切换'
   },
 
@@ -40,34 +40,34 @@ const CONFIG = {
   profile: {
     greetingLead: '你好，我是',
     /** 首页大标题里渐变显示的名字 */
-    displayName: '腾小飞',
+    displayName: 'Kiki',
     locationLine: '复旦大学腾飞书院',
-    intro: '工科学生一枚；本页是 GitHub Pages 静态个人名片的示例，展示简介与经历片段。',
+    intro: '工科学生一枚；本页是 GitHub Pages 静态个人名片的示例，展示简介。',
     quote: '「永远在腾飞路上！」',
     /** 头像：可把图片放到 assets/ 下，例如 assets/avatar.jpg */
     avatar: 'assets/秘书处_线条.png',
-    avatarAlt: '腾小飞',
+    avatarAlt: 'Kiki',
     aboutTitle: 'About Me',
     /** 右侧「关于我」列表；有 href 时渲染为链接 */
     aboutRows: [
-      { label: '年龄', value: '永远的 18 岁' },
-      { label: '爱好', value: '探索世界' },
+      { label: '年龄', value: '18 岁' },
+      { label: '爱好', value: '打球、音乐、看电视剧' },
       {
         label: 'GitHub',
-        value: 'Tengxiaofei-git',
-        href: 'https://github.com/Tengxiaofei-git'
+        value: 'KikiCai-Justin-git',
+        href: 'https://github.com/kikicai-justin-git'
       },
       {
         label: '联系方式',
-        value: 'tengfeimsc@163.com',
-        href: 'mailto:tengfeimsc@163.com'
+        value: '1051572866@qq.com',
+        href: 'mailto:1051572866@qq.com'
       }
     ]
   },
 
   links: {
     /** 右上角「GitHub 仓库」按钮 */
-    repoUrl: 'https://github.com/Tengxiaofei-git/Tengxiaofei-git.github.io',
+    repoUrl: 'https://github.com/KikiCai-Justin/kikicai-justin-git.github.io',
     repoLabel: 'GitHub 仓库',
     /** 主按钮文案与跳转的幻灯片 id（须为上面 slides 中某一 id） */
     primaryCtaLabel: '浏览经历',
@@ -85,7 +85,7 @@ const CONFIG = {
           },
           {
             heading: 'Interests',
-            items: ['Photography', 'Painting', 'Go-kart']
+            items: ['Music', 'Basketball', 'Snooker']
           }
         ]
       },
@@ -95,12 +95,7 @@ const CONFIG = {
             heading: 'Tech',
             items: [
               'Python',
-              'C++',
-              'Unity',
-              'Godot',
-              'Matlab',
-              'SPSS',
-              'SQL'
+              'C'
             ]
           }
         ]
@@ -108,8 +103,8 @@ const CONFIG = {
       {
         sections: [
           {
-            heading: 'Reading list（寻找书友中……）',
-            items: ['《人间词话》', '《人间草木》', '《百年孤独》']
+            heading: '看剧',
+            items: ['《折月亮》', '《点燃我温暖你》', '《炽夏》']
           }
         ]
       }
@@ -121,28 +116,24 @@ const CONFIG = {
     research: {
       title: '科研经历',
       items: [
-        '参与发表一篇 WON 负一区文章',
-        '参与腾飞科创并顺利结项',
-        'xxxx 实验室周公下棋全勤奖'
+        '很遗憾，没有'
       ]
     },
     competition: {
       title: '竞赛获奖经历',
       items: [
-        '数模国赛永远在参与',
-        '电赛、ACM、RM 有空一定了解'
+        '很遗憾，没有',
       ]
     },
     internship: {
       title: '实习经验',
       items: [
-        '家里厨房暑期优秀实习生',
-        '深度参与撸猫遛狗项目，实习认证时长 100h+'
+        '家里厨房暑期优秀实习生'
       ]
     },
     social: {
       title: '社会实践',
-      items: ['2008 年感动中国人物得主', '被窝测评大师']
+      items: [ '被窝测评大师']
     }
   }
 }

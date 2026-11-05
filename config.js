@@ -14,7 +14,7 @@ const CONFIG = {
   site: {
     headerName: 'Kiki',
     footerName: 'Kiki',
-    footerOrg: 'Kiki',
+    footerOrg: 'FDu',
     footerNote: '本页为 github.io 静态部署教程示例 · 左右滑动或方向键切换'
   },
 
@@ -58,7 +58,7 @@ const CONFIG = {
         href: 'https://github.com/kikicai-justin-git'
       },
       {
-        label: '联系方式',
+        label: '邮箱',
         value: '1051572866@qq.com',
         href: 'mailto:1051572866@qq.com'
       }
@@ -70,7 +70,7 @@ const CONFIG = {
     repoUrl: 'https://github.com/KikiCai-Justin/kikicai-justin-git.github.io',
     repoLabel: 'GitHub 仓库',
     /** 主按钮文案与跳转的幻灯片 id（须为上面 slides 中某一 id） */
-    primaryCtaLabel: '浏览经历',
+    primaryCtaLabel: '看看我的经历',
     primaryCtaSlideId: 'research'
   },
 

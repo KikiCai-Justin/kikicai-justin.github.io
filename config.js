@@ -6,7 +6,7 @@ const CONFIG = {
   meta: {
     title: 'Kiki · 个人名片',
     description:
-      'Kiki — 复旦大学腾飞书院 · 计算与智能创新学院 工科在读本科生：简介、技能与兴趣、科研、竞赛、实习与社会实践。',
+      'Kiki — 复旦大学腾飞书院·计算与智能创新学院 工科在读本科生：简介、技能与兴趣、科研、竞赛、实习与社会实践。',
     lang: 'zh-CN'
   },
 
@@ -81,7 +81,7 @@ const CONFIG = {
         sections: [
           {
             heading: 'Language',
-            items: ['Chinese', 'English']
+            items: ['中文', 'English']
           },
           {
             heading: 'Interests',
@@ -95,7 +95,8 @@ const CONFIG = {
             heading: 'Tech',
             items: [
               'Python',
-              'C'
+              'C',
+              'Git'
             ]
           }
         ]
@@ -128,12 +129,12 @@ const CONFIG = {
     internship: {
       title: '实习经验',
       items: [
-        '家里厨房暑期优秀实习生'
+        '学车'
       ]
     },
     social: {
       title: '社会实践',
-      items: [ '被窝测评大师']
+      items: [ '旅游','看“万兽之王演唱会”']
     }
   }
 }

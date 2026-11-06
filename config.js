@@ -45,8 +45,8 @@ const CONFIG = {
     intro: '工科学生一枚；本页是 GitHub Pages 静态个人名片的示例，展示简介。',
     quote: '「永远在腾飞路上！」',
     /** 头像：可把图片放到 assets/ 下，例如 assets/avatar.jpg */
-    avatar: 'assets/秘书处_线条.png',
-    avatarAlt: 'Kiki',
+    avatar: 'assets/avatar.jpg',
+    avatarAlt: '此处是一张图片',
     aboutTitle: 'About Me',
     /** 右侧「关于我」列表；有 href 时渲染为链接 */
     aboutRows: [
